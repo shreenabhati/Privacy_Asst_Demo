@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.show-Output-text {
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  font-size: 18px;
+  padding: 10px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005f6b;
+}
+
+button.accept {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #dff2bf;
+  color: #4f8a10;
+  border: 2px solid #4f8a10;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button.accept:hover {
+  background-color: #d0e9c6;
+}
+
+.show-hide-suggestion {
+  padding: 10px;
+  color: blue;
+}
+
+.active-suggestion {
+  color: red;
+}
